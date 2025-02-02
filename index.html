@@ -7,12 +7,13 @@
 </head>
 <body>
 
-    <h2>What Can JavaScript Do?</h2>
+    <h2>Javascript in Body</h2>
 
-    <p id="demo" style="display: none;">JavaScript can hide HTML elements.</p>
+    <p id="demo"></p>
 
-    <button type="button" onclick="document.getElementById('demo').style.display = 'block'">Click Me!</button>
-
+    <script>
+        document.getElementById("demo").innerHTML = "My First Javascript";
+    </script>
     
 </body>
 </html>
