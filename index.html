@@ -9,11 +9,12 @@
 
     <h2>What Can JavaScript Do?</h2>
 
-    <p id="demo">Javascript can change the HTML content</p>
+    <button onclick="document.getElementById('myImage').src = 'tree.png'">Change the photo</button>
 
-    <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello Javascript!'">Click Me!</button>
+    <img src="lake-como.webp" alt="lake photo" id="myImage" style="width: 100px;">
 
-    <script src="script.js"></script>
+    <button onclick="document.getElementById('myImage').src = 'lake-como.webp'">Return the photo</button>
+
     
 </body>
 </html>
